@@ -7,7 +7,7 @@ const HomeCard = ({appData}) => {
     
     return (
         <div>
-            <div className="card bg-base-100  shadow-sm">
+            <div className="card bg-base-100  shadow-sm hover:scale-105 transition ease-in-out">
   <figure className='p-4 '>
     <img className='h-[200px] w-full rounded-md'
       src={image}

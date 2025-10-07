@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../Components/Banner';
 import Reviews from '../Components/Reviews';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import HomeCard from './HomeCard';
 
 
@@ -22,6 +22,9 @@ const Home = () => {
                 {
                 showData.map(appData=><HomeCard key={appData.id} appData={appData}></HomeCard>)
             }
+            </div>
+            <div className='flex justify-center'>
+                <Link to='/apps' className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-4">Show All</Link>
             </div>
            </div>
         </div>
