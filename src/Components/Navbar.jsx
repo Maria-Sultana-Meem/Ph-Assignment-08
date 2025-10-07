@@ -65,7 +65,7 @@ const Navbar = () => {
           <Link to='/'>
           <div className="flex items-center gap-2">
             <img className="w-[60px] " src={logo} alt="image" />
-            <a className="text-[#632EE3] font-bold text-xl">HERO.IO</a>
+            <p className="text-[#632EE3] font-bold text-xl">HERO.IO</p>
           </div>
           </Link>
         </div>

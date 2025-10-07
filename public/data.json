@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/xKXRvDnx/fitlife.jpg",
+    "title": "FitLife Tracker",
+    "companyName": "WellnessWorks",
+    "description": "FitLife Tracker helps you stay motivated on your fitness journey with custom workout plans, real-time progress tracking, and health insights powered by AI. It syncs with wearables and provides meal suggestions based on your activity level.",
+    "size": 45,
+    "reviews": "5M",
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3100 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/DHPL7kTC/notemate.jpg",
+    "title": "NoteMate",
+    "companyName": "SmartNote Labs",
+    "description": "NoteMate is an intuitive note-taking app that lets you organize your ideas, tasks, and voice memos in one place. It features smart tags, dark mode, and offline sync so you never lose your thoughts, even on the go.",
+    "size": 25,
+    "reviews": "4M",
+    "ratingAvg": 4.4,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/0R0VzVvw/tuneWave.png",
+    "title": "TuneWave",
+    "companyName": "SonicStream",
+    "description": "TuneWave delivers your favorite music in high-quality sound with no ads. Enjoy personalized playlists, smart recommendations, and offline mode. Whether you love pop, rock, or lo-fi, TuneWave adapts to your mood instantly.",
+    "size": 60,
+    "reviews": "5M",
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/FkYxzT56/study-Sphere.png",
+    "title": "StudySphere",
+    "companyName": "EduSpark",
+    "description": "StudySphere brings together online courses, flashcards, and quizzes to make learning easy and engaging. You can join live classes, chat with tutors, and track your learning goals — all in a beautifully designed interface.",
+    "size": 70,
+    "reviews": "7M",
+    "ratingAvg": 4.5,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1550 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/mw3w94F/skyCast.jpg",
+    "title": "SkyCast",
+    "companyName": "WeatherNova",
+    "description": "SkyCast gives you hyper-local weather forecasts with real-time radar maps and storm alerts. Its minimal design and AI-based predictions ensure you're never caught off guard by rain or heat waves again.",
+    "size": 30,
+    "reviews": "3M",
+    "ratingAvg": 4.7,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/ycG80PRn/Foodify.png",
+    "title": "Foodify",
+    "companyName": "QuickEats",
+    "description": "Foodify makes ordering your favorite dishes faster and easier. With instant restaurant search, live delivery tracking, and special offers, it's the go-to app for food lovers craving convenience and flavor.",
+    "size": 55,
+    "reviews": "8M",
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/FNvPwVT/SnapPro.png",
+    "title": "SnapPro",
+    "companyName": "PixelArts Studio",
+    "description": "SnapPro turns your photos into works of art with one-tap filters, background blur, and AI face enhancement. Share instantly on social media or save high-res copies in your gallery.",
+    "size": 85,
+    "reviews": "7M",
+    "ratingAvg": 4.7,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/SwG3tpfX/ChatMe.png",
+    "title": "ChatMe",
+    "companyName": "Connectify",
+    "description": "ChatMe offers secure and fast messaging with voice and video calls. You can customize chat themes, send disappearing messages, and connect with friends around the world — all with end-to-end encryption.",
+    "size": 40,
+    "reviews": "6M",
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/B2dGGyQX/Planify.png",
+    "title": "Planify",
+    "companyName": "FocusTime Labs",
+    "description": "Planify helps you manage your time and tasks with a clean, minimal design. It includes daily planners, reminders, and habit tracking tools to boost your productivity without overwhelming you.",
+    "size": 35,
+    "reviews": "2M",
+    "ratingAvg": 4.3,
+    "downloads": 740000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/8LCCz54Q/StreamOn.jpg",
+    "title": "StreamOn",
+    "companyName": "VisionPlay",
+    "description": "StreamOn is your go-to app for high-definition movies and live TV. It offers personalized recommendations, smooth playback, and offline downloads — all wrapped in a stunning interface.",
+    "size": 90,
+    "reviews": "10M",
+    "ratingAvg": 4.8,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/GfVsJDXV/YogaZen.jpg",
+    "title": "YogaZen",
+    "companyName": "MindBody Co.",
+    "description": "YogaZen guides you through daily yoga sessions with video tutorials and AI posture correction. Track your flexibility, breathing exercises, and mindfulness streaks for holistic wellness.",
+    "size": 50,
+    "reviews": "4M",
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/fGLhbDcy/Code-Buddy.png",
+    "title": "CodeBuddy",
+    "companyName": "DevSpark",
+    "description": "CodeBuddy helps you learn programming with interactive lessons, coding challenges, and real-time feedback. Track your progress, earn badges, and connect with other learners worldwide.",
+    "size": 65,
+    "reviews": "5M",
+    "ratingAvg": 4.5,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1050 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/fY8w7WVN/TaskFlow.jpg",
+    "title": "TaskFlow",
+    "companyName": "ProductiveTech",
+    "description": "TaskFlow organizes your work and personal tasks in one app. With Kanban boards, reminders, and priority tags, staying productive has never been easier.",
+    "size": 40,
+    "reviews": "2M",
+    "ratingAvg": 4.4,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/fYJfhJZY/Puzzle-Pal.png",
+    "title": "PuzzlePal",
+    "companyName": "Brainy Games",
+    "description": "PuzzlePal challenges your mind with daily brain teasers, puzzles, and logic games. Track your streaks and improve your cognitive skills while having fun.",
+    "size": 35,
+    "reviews": "4M",
+    "ratingAvg": 4.3,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/XkdvL8Fz/Budget-Wise.png",
+    "title": "BudgetWise",
+    "companyName": "FinancePro",
+    "description": "BudgetWise helps you manage your finances, track expenses, and set savings goals. It provides detailed charts, alerts, and recommendations to improve financial health.",
+    "size": 30,
+    "reviews": "4M",
+    "ratingAvg": 4.5,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/Mx8kHyqn/Insta-Frame.jpg",
+    "title": "InstaFrame",
+    "companyName": "PhotoCraft",
+    "description": "InstaFrame allows you to create stunning photo collages with filters, frames, and stickers. Share instantly on social media or save high-quality images to your gallery.",
+    "size": 45,
+    "reviews": "6M",
+    "ratingAvg": 4.6,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1700 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/1GFmtDQy/Travel-Buddy.png",
+    "title": "TravelBuddy",
+    "companyName": "Wanderlust Inc.",
+    "description": "TravelBuddy is your companion for trip planning, route optimization, and hotel booking. Discover hidden gems, get local tips, and create your personalized travel itinerary.",
+    "size": 55,
+    "reviews": "3M",
+    "ratingAvg": 4.7,
+    "downloads": 880000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/k2HS5nHg/BeatBox.jpg",
+    "title": "BeatBox",
+    "companyName": "SoundWave",
+    "description": "BeatBox lets you mix and produce music on the go. With a library of beats, loops, and effects, create tracks and share them instantly with friends and the community.",
+    "size": 70,
+    "reviews": "2M",
+    "ratingAvg": 4.4,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 650 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/7JRvNjYc/Vlog-Stream.jpg",
+    "title": "VlogStream",
+    "companyName": "MediaFlow",
+    "description": "VlogStream is a platform for creating and streaming vlogs. Edit videos, add effects, and share directly to your audience. Track views, likes, and comments in real-time.",
+    "size": 80,
+    "reviews": "5M",
+    "ratingAvg": 4.5,
+    "downloads": 760000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 650 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/nTHqGRf/Lang-Learn.png",
+    "title": "LangLearn",
+    "companyName": "Polyglot Labs",
+    "description": "LangLearn makes learning new languages fun with daily lessons, quizzes, and speaking practice. Track your progress, unlock achievements, and chat with native speakers globally.",
+    "size": 60,
+    "reviews": "7M",
+    "ratingAvg": 4.6,
+    "downloads": 810000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1120 }
+    ]
+  }
+]
