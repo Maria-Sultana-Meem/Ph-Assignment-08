@@ -3,13 +3,15 @@ import { useLoaderData, useParams } from "react-router";
 import downloadImg from "../assets/icon-downloads.png";
 import starImg from "../assets/icon-ratings.png";
 import reviewImg from "../assets/icon-review.png";
-import { toast, ToastContainer } from "react-toastify";
+import { toast} from "react-toastify";
 import Rechart from "./Rechart";
 import { updateInstallList } from "../LocalStorage/LocalStorage";
 
+
+
 const AppDetails = () => {
   const { id } = useParams();
-  const data = useLoaderData();
+  const data = useLoaderData() || [];
   const findData = data.find((d) => d.id === Number(id));
   const {
     image,
@@ -22,7 +24,10 @@ const AppDetails = () => {
     description,
     size,
   } = findData || {};
-  const [install, setInstall] = useState(false);
+  const installedApps = JSON.parse(localStorage.getItem("installList")) || [];
+const [install, setInstall] = useState(
+  installedApps.some((a) => a.id === Number(id))
+);
   const handleClick = () => {
 
    setInstall(true)
@@ -30,10 +35,13 @@ const AppDetails = () => {
    toast("Installed")
 
   };
+  if(!findData){
+    return <p className="text-center font-bold py-10 text-4xl">App Not Found</p>
+  }
 
   return (
     <div className="bg-[#F5F5F5] py-10">
-      <div className="max-w-6xl mx-auto">
+      <div className="w-11/12 md:max-w-6xl mx-auto">
         <div className="md:flex gap-10">
           <div>
             <img src={image} alt="" />
@@ -84,7 +92,7 @@ const AppDetails = () => {
          <p className=" mt-5">{description}</p>
        </div>
       </div>
-      <ToastContainer></ToastContainer>
+      
     </div>
     
   );

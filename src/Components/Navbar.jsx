@@ -33,7 +33,9 @@ const Navbar = () => {
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
-                    isActive ? "text-[#632EE3] border-b-2 border-[#632EE3]" : "text-black"
+                    isActive
+                      ? "text-[#632EE3] border-b-2 border-[#632EE3]"
+                      : "text-black"
                   }
                 >
                   Home
@@ -43,7 +45,9 @@ const Navbar = () => {
                 <NavLink
                   to="/apps"
                   className={({ isActive }) =>
-                    isActive ? "text-[#632EE3] border-b-2 border-[#632EE3]" : "text-black"
+                    isActive
+                      ? "text-[#632EE3] border-b-2 border-[#632EE3]"
+                      : "text-black"
                   }
                 >
                   Apps
@@ -51,60 +55,70 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  to='/installation'
+                  to="/installation"
                   className={({ isActive }) =>
-                    isActive ? "text-[#632EE3] border-b-2 border-[#632EE3]" : "text-black"
+                    isActive
+                      ? "text-[#632EE3] border-b-2 border-[#632EE3]"
+                      : "text-black"
                   }
                 >
                   Installation
                 </NavLink>
               </li>
-              
             </ul>
           </div>
-          <Link to='/'>
-          <div className="flex items-center gap-2">
-            <img className="w-[60px] " src={logo} alt="image" />
-            <p className="text-[#632EE3] font-bold text-xl">HERO.IO</p>
-          </div>
+          <Link to="/">
+            <div className="flex items-center gap-2">
+              <img className="w-[60px] " src={logo} alt="image" />
+              <p className="text-[#632EE3] font-bold text-xl">HERO.IO</p>
+            </div>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 ">
             <li>
-                <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    isActive ? "text-[#632EE3] border-b-2 border-[#632EE3]" : "text-black"
-                  }
-                >
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/apps"
-                  className={({ isActive }) =>
-                    isActive ? "text-[#632EE3] border-b-2 border-[#632EE3]" : "text-black"
-                  }
-                >
-                  Apps
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to='/installation'
-                  className={({ isActive }) =>
-                    isActive ? "text-[#632EE3] border-b-2 border-[#632EE3]" : "text-black"
-                  }
-                >
-                  Installation
-                </NavLink>
-              </li>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#632EE3] border-b-2 border-[#632EE3]"
+                    : "text-black"
+                }
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/apps"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#632EE3] border-b-2 border-[#632EE3]"
+                    : "text-black"
+                }
+              >
+                Apps
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/installation"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#632EE3] border-b-2 border-[#632EE3]"
+                    : "text-black"
+                }
+              >
+                Installation
+              </NavLink>
+            </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="https://github.com/Maria-Sultana-Meem/Ph-Assignment-08" className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+          <a
+            href="https://github.com/Maria-Sultana-Meem/Ph-Assignment-08"
+            className="btn hover:scale-110 bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+          >
             <img src={githubImg} alt="" />
             <span className="text-white">Contribute</span>
           </a>

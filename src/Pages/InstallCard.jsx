@@ -1,7 +1,8 @@
 
+import { toast } from 'react-toastify';
 import downloadImg from '../assets/icon-downloads.png'
 import ratingImg from '../assets/icon-ratings.png'
-import LoadingSpinner from '../Components/LoadingSpinner';
+
 import { removeFromInstallList } from '../LocalStorage/LocalStorage';
 
 const InstallCard = ({installCardData,setInstallData}) => {
@@ -10,6 +11,7 @@ const InstallCard = ({installCardData,setInstallData}) => {
    const handleUninstall=()=>{
         removeFromInstallList(id)
         setInstallData(prev => prev.filter(p => p.id !== id))
+        toast("Uninstalled")
         
     }
     return (
@@ -39,8 +41,8 @@ const InstallCard = ({installCardData,setInstallData}) => {
 
 
             </div>
-            <button onClick={handleUninstall} className="btn bg-[#00D390]  px-4 text-white">Uninstall</button>
-       
+            <button onClick={handleUninstall} className="btn bg-[#00D390] hover:scale-110  px-4 text-white">Uninstall</button>
+      
         </div>
     );
 };

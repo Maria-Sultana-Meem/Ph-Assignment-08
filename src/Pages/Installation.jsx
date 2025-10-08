@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { loadInstallList } from "../LocalStorage/LocalStorage";
 import InstallCard from "./InstallCard";
 
+
 const Installation = () => {
 //   const data = useLoaderData();
   const [installData, setInstallData] = useState(() => loadInstallList());
@@ -10,9 +11,9 @@ const Installation = () => {
     
   const sortedItem = (() => {
     if (sort === 'size-asc') {
-      return [...installData].sort((a, b) =>parseFloat( a.size) - parseFloat(b.size))
+      return [...installData].sort((a, b) =>parseFloat( a.downloads) - parseFloat(b.downloads))
     } else if (sort === 'size-desc') {
-      return [...installData].sort((a, b) =>parseFloat( b.size) - parseFloat(a.size))
+      return [...installData].sort((a, b) =>parseFloat( b.downloads) - parseFloat(a.downloads))
     } else {
       return installData
     }
@@ -23,7 +24,7 @@ const Installation = () => {
       <p className="text-center py-10 font-bold text-3xl">No App Available</p>
     );
 
-  return (
+  return (<>
     <div className="py-10 space-y-5 bg-[#F5F5F5]">
       <h1 className="text-4xl font-bold text-center">Your Installed Apps</h1>
       <p className="text-center text-[#627382]">
@@ -55,7 +56,10 @@ const Installation = () => {
           ></InstallCard>
         ))}
       </div>
+      
     </div>
+    
+    </>
   );
 };
 

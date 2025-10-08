@@ -2,8 +2,8 @@ import React from 'react';
 import logoImg from '../assets/logo.png'
 const Footer = () => {
     return (
-        <div className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] '>
-            <footer className="footer sm:footer-horizontal max-w-6xl mx-auto  text-base-content py-10">
+        <div className='bg-gradient-to-r  from-[#632EE3] to-[#9F62F2] '>
+            <footer className="footer sm:footer-horizontal flex flex-col md:flex-row md:justify-between justify-center items-center max-w-6xl mx-auto  text-base-content py-10">
   <aside>
    <img className='w-[80px]' src={logoImg} alt="" />
     <p className='text-white font-bold text-2xl'>

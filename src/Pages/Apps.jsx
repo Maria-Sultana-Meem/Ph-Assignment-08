@@ -14,7 +14,7 @@ const Apps = () => {
   return (
     <>
     <div className="bg-[#F5F5F5]">
-      <div className="space-y-5 py-10 max-w-6xl mx-auto">
+      <div className="space-y-5 py-10 w-11/12 md:max-w-6xl mx-auto">
         
         {searchedApp.length > 0 ? 
         

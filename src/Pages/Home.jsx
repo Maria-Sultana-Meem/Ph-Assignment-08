@@ -18,13 +18,13 @@ const Home = () => {
            <div className=' py-10 bg-[#F5F5F5] space-y-5 '>
             <h1 className='text-4xl font-bold text-center'>Trending Apps</h1>
             <p className='text-center text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
-            <div className='max-w-6xl mx-auto gap-5 grid grid-cols-1 md:grid-cols-4'>
+            <div className='w-11/12 md:max-w-6xl mx-auto gap-5 grid grid-cols-1 md:grid-cols-4'>
                 {
                 showData.map(appData=><HomeCard key={appData.id} appData={appData}></HomeCard>)
             }
             </div>
             <div className='flex justify-center'>
-                <Link to='/apps' className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-4">Show All</Link>
+                <Link to='/apps' className="btn hover:scale-110 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-4">Show All</Link>
             </div>
            </div>
         </div>

@@ -7,7 +7,7 @@ const HomeCard = ({appData}) => {
    const {image,title,downloads,ratingAvg,id} = appData
     
     return (
-        <Link to={`/appDetails/${id}`}>
+        <Link to={`/apps/${id}`}>
         <div>
             <div className="card bg-base-100  shadow-sm hover:scale-105 transition ease-in-out">
   <figure className='p-4 '>

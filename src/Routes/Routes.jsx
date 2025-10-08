@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         Component:Installation
       },
       {
-        path:"/appDetails/:id",
+        path:"/apps/:id",
          loader:()=>fetch('/data.json'),
         Component:AppDetails
       }

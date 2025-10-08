@@ -1,10 +1,11 @@
+import { RingLoader } from "react-spinners";
 
 
 const LoadingSpinner = () => {
     
     return (
-        <div className='flex justify-center items-center'>
-             <p className='text-5xl text-center animate-spin'>⭕</p>
+        <div className='flex justify-center items-center h-screen'>
+             <RingLoader color="#632EE3" loading={true} size={80}></RingLoader>
 
         </div>
     );
