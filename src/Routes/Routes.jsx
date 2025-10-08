@@ -4,12 +4,12 @@ import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
 import ErrorPage from "../Pages/ErrorPage";
+import AppDetails from "../Pages/AppDetails";
 
 const router = createBrowserRouter([
  {
     path: '/',
     element: <MainLayout></MainLayout>,
-    hydrateFallbackElement: <p>Loading...</p>,
     errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
@@ -28,6 +28,11 @@ const router = createBrowserRouter([
         path:'/installation',
         loader:()=>fetch('/data.json'),
         Component:Installation
+      },
+      {
+        path:"/appDetails/:id",
+         loader:()=>fetch('/data.json'),
+        Component:AppDetails
       }
 
 
