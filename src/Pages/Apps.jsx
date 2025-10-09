@@ -2,10 +2,25 @@ import React, { useState } from "react";
 import { Link, useLoaderData } from "react-router";
 import AppCard from "./AppCard";
 import appError from "../assets/App-Error.png";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const Apps = () => {
   const data = useLoaderData();
   const [search, setSearch] = useState("");
+    const [loading,setLoading]=useState(false);
+
+ const handleSearch =(e)=>{
+  const value = e.target.value
+ setSearch(value)
+ setLoading(true)
+
+ }
+ setTimeout(()=>{
+  setLoading(false)
+ },500)
+ if(loading){
+  return <LoadingSpinner></LoadingSpinner>
+ }
   const term = search.trim().toLocaleLowerCase();
   const searchedApp = term
     ? data.filter((d) => d.title.toLocaleLowerCase().includes(term))
@@ -49,7 +64,8 @@ const Apps = () => {
               </svg>
               <input
                 value={search}
-                onChange={(e) => setSearch(e.target.value)}
+                // onChange={(e) => setSearch(e.target.value)}
+                onChange={handleSearch}
                 type="search"
                 required
                 placeholder="Search"
