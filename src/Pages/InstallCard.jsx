@@ -11,7 +11,7 @@ const InstallCard = ({installCardData,setInstallData}) => {
    const handleUninstall=()=>{
         removeFromInstallList(id)
         setInstallData(prev => prev.filter(p => p.id !== id))
-        toast("Uninstalled")
+        toast.warn(`${title} Uninstalled🙁`)
         
     }
     return (

@@ -32,7 +32,8 @@ const [install, setInstall] = useState(
 
    setInstall(true)
    updateInstallList(findData)
-   toast("Installed")
+
+  toast.success(` Wow😍 ${title} Installed Succesfully😇`)
 
   };
   if(!findData){

@@ -41,7 +41,7 @@ if (loading) {
             <Outlet></Outlet>
            </div>
            <Footer></Footer>
-    <ToastContainer></ToastContainer>
+    <ToastContainer position='top-center'></ToastContainer>
 
 
         </div>
